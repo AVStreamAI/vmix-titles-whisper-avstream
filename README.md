@@ -3,11 +3,17 @@ Create venv
 pip install gspread oauth2client pyaudio wave faster_whisper
 
 Go to the Google Cloud Console. 
+
 Create a new project or select an existing one. 
+
 Navigate to the "APIs & Services > Dashboard" section. 
+
 Enable the "Google Sheets API" and "Google Drive API" for your project. 
+
 Go to "Credentials" and create a new service account. 
+
 After creating the service account, click on it and go to the "Keys" section. 
+
 Add a new key, select JSON, and download the JSON file. This file contains your credentials.
 
 Add PATH to JSON into line 16
